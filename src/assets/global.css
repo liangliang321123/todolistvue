@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.standard-button {
+    background-color: #0c2b5a;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.table-form {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-form td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-form tr:nth-child(even) {
+    background-color: #dddddd;
+}
